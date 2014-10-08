@@ -6,6 +6,9 @@ package com.github.fbdo.geocoder;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.github.fbdo.geomodel.AddressComponent;
+import com.github.fbdo.geomodel.AddressType;
+import com.github.fbdo.geomodel.Geometry;
 
 /**
  * @author <a href="mailto:fabio.braga@gmail.com">Fabio Oliveira</a>

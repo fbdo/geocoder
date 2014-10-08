@@ -4,6 +4,7 @@ apply plugin: 'maven'
 version = '1.0.0-SNAPSHOT'
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
@@ -11,5 +12,6 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-core:2.+'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.+'
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.+'
+    compile 'com.github.fbdo:geomodel:1.0.0-SNAPSHOT'
     testCompile 'junit:junit:4.+'
 }
